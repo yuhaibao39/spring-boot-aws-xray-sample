@@ -1,6 +1,7 @@
 spring:
   application:
     name: SpringBootXRayDemoApplication  
+    port: 8888
   h2:
     console:
       enabled: false 
