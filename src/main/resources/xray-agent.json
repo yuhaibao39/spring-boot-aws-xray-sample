@@ -1,0 +1,16 @@
+{
+  "serviceName": "FengCe-App-XRayInstrumentedService",
+  "contextMissingStrategy": "LOG_ERROR",
+  "daemonAddress": "3.1.196.122:2000",
+  "tracingEnabled": true,
+  "samplingStrategy": "CENTRAL",
+  "traceIdInjectionPrefix": "prefix",
+  "samplingRulesManifest": "/path/to/manifest",
+  "awsServiceHandlerManifest": "/path/to/manifest",
+  "awsSdkVersion": 2,
+  "maxStackTraceLength": 50,
+  "streamingThreshold": 100,
+  "traceIdInjection": true,
+  "pluginsEnabled": true,
+  "collectSqlQueries": false
+}
