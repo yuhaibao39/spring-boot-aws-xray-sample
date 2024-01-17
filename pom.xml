@@ -167,8 +167,9 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-tomcat</artifactId>
-    <version>1.2.4.RELEASE</version>
+    <!--<scope>provided</scope> 注释掉-->
 </dependency>
+
 
 	</dependencies>
 
