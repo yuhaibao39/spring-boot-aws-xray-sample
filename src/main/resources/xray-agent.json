@@ -1,7 +1,7 @@
 {
   "serviceName": "FengCe-App-XRayInstrumentedService",
   "contextMissingStrategy": "LOG_ERROR",
-  "daemonAddress": "3.1.196.122:2000",
+  "daemonAddress": "127.0.0.1:2000",
   "tracingEnabled": true,
   "samplingStrategy": "CENTRAL",
   "traceIdInjectionPrefix": "prefix",
